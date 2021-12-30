@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+<body>
+    
+    <div id="app">
+        <Waterfall>
+
+        </Waterfall>
+    </div>
+
+    <script src="https://cdn.staticfile.org/vue/2.6.10/vue.min.js"></script>
+    <script src="../dist/vue-waterfall.min.js"></script>
+    <script>
+        console.log('组件对象 :>> ', VWaterfallLazy);
+        var vm = new Vue({
+            el:'#app',
+            components:{
+                waterfall:VWaterfallLazy.Waterfall,
+                WaterfallItem:VWaterfallLazy.WaterfallItem
+            },
+            data:{
+
+            },
+        });
+    </script>
+</body>
+</html>

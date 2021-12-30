@@ -1,0 +1,42 @@
+{
+  "name": "v-waterfall-lazy",
+  "version": "1.0.0",
+  "description": "vue 组件开发脚手架",
+  "main": "dist/v-waterfall-lazy.min.js",
+  "scripts": {
+    "build": "webpack --config webpack/webpack.min.conf.js"
+  },
+  "author": "yuxiaobo <wx:base1024>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edk24/v-component-template.git"
+  },
+  "keywords": [
+    "waterfall",
+    "vue",
+    "lazy",
+    "layout"
+  ],
+  "bugs": {
+    "url": "https://github.com/edk24/v-component-template/issues"
+  },
+  "homepage": "https://github.com/edk24/v-component-template",
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.2",
+    "babel-plugin-transform-runtime": "^6.5.2",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-runtime": "^5.8.35",
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.23.1",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^3.3.1",
+    "vue-loader": "^11.3.4",
+    "vue-template-compiler": "^2.2.6",
+    "webpack": "^1.12.13"
+  }
+}
